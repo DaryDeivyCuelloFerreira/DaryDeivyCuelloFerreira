@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Cargar el modelo
-with open('modelo_precio_auto.pkl', 'rb') as f:
+with open(r'C:\Users\cuell\Downloads\Regresiones_lineales\modelo_precio_auto.pkl ', 'rb') as f:
     modelo_info = pickle.load(f)
 
 model = modelo_info['model']
